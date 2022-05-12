@@ -45,7 +45,7 @@ docker pull meetzhongwc/dockerhub:latest
 # init container from the Docker image
 docker run -it meetzhongwc/dockerhub:latest
 #  Now you are inside the container, setup the environment:
-/home/ubuntu/scripts/install.sh
+source /home/ubuntu/scripts/install.sh
 ```
 
 For artifact evaluation, we recommend deploying the image on a machine similar to ours (```c6i.8xlarge``` with 32-core vCPU, 64 GB of RAM, and 30GB of EBS storage), or a machine with at least a 16-core CPU and 32 GB of RAM.
