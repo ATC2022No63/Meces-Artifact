@@ -41,9 +41,9 @@ You can deploy the environment with our prepared Docker image by running followi
 
 ``` shell
 # get the Docker image
-docker pull meetzhongwc/dockerhub:meces
+docker pull meetzhongwc/dockerhub:latest
 # init container from the Docker image
-docker run -it meetzhongwc/dockerhub:meces
+docker run -it meetzhongwc/dockerhub:latest
 #  Now you are inside the container, setup the environment:
 /home/ubuntu/scripts/install.sh
 ```
